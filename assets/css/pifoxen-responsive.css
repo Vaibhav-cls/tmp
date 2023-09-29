@@ -1690,7 +1690,7 @@
         padding: 60px 0 45px;
     }
     .events__date {
-        padding: 5px 5px;
+        padding: 2px 5px;
         border-top-left-radius: 8px;
         border-bottom-right-radius: 8px;
     }
@@ -1705,7 +1705,7 @@
         padding: 10px;
     }
     .events__title {
-        font-size: 15px;
+        font-size: 11px;
         line-height: 18px;
         margin-bottom: 5px;
     }
@@ -1724,6 +1724,27 @@
         margin-left: 0px;
     }
     .events__meta li i {
-        padding-right: 7px;
+        padding-right: 5px;
+    }
+    .event-container {
+        border-radius: 10px;
+        margin: 20px 10px;
+    }
+    .event-container img{
+        min-width: 40%;
+        min-height: 100%;
+    }
+    .event-container .event-container-inner{ 
+        padding: 8px;
+    }
+    .event-container .event-container-inner div{
+        font-size: 10px;
+    }
+    .event-container .event-container-inner h2{
+        font-size: 16px;
+    }
+    .event-container .event-container-inner p{
+        font-size: 12px;
+        line-height: 18px;
     }
 }
