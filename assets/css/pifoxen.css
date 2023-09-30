@@ -3635,6 +3635,10 @@ ul {
   margin-left: 15px;
 }
 
+/*NEW SLIDER INTEGRATION AS PER THE DESIGN OF 
+RESPONSIVENESS TO MOBILE VIEWPORT AND MANUAL BUTTONS */
+
+
 /*--------------------------------------------------------------
 # Two Boxes
 --------------------------------------------------------------*/
@@ -9809,26 +9813,32 @@ ul {
   border: 1px solid #ccc;
   border-radius: 10px;
   margin: 20px;
-  padding: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+.event-container .img-container{
+  width: 300px;
+}
 .event-container img{
-  width: 55%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 .event-container .event-container-inner{
   flex: 1; 
   padding: 10px;
 }
 .event-container .event-container-inner div{
-  font-size: 18px;
+  font-size: 16px;
   color: #333;
 }
 .event-container .event-container-inner h2{
-  font-size: 24px;
-  margin-top: 5px;
+  font-size: 20px;
+  margin-op: 5px;
+}
+.event-container .event-container-inner p{
+  font-size: 12px;
+  line-height: 18px;
 }
 
 /*--------------------------------------------------------------
