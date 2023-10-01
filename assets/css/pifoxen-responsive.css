@@ -1782,7 +1782,7 @@
     }
 
     .causes-one__category span {
-        font-size: 6px;
+        font-size: 8px;
         line-height: 15px;
         font-weight: 600;
     }
@@ -1836,10 +1836,10 @@
         backgroundcolor: red;
     }
     .causes-one__goals>p {
-        font-size: 8px;
+        font-size: 10px;
     }
     .causes-one__goals>p>span {
-        font-size: 7px;
+        font-size: 10px;
         color: var(--pifoxen-black);
         font-weight: 500;
         line-height: 10px;
