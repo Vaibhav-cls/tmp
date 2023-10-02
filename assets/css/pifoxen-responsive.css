@@ -1824,33 +1824,40 @@
     .causes-one__progress .bar-inner {
         height: 4px;
     }
+
     .causes-one__progress .count-text {
         right: -30px;
         bottom: 12px;
         height: 20px;
         width: 30px;
     }
+
     .causes-one__goals {
         display: flex;
         justify-content: space-between;
     }
+
     .causes-one__goals>p {
         font-size: 10px;
     }
+
     .causes-one__goals>p>span {
         font-size: 10px;
         color: var(--pifoxen-black);
         font-weight: 500;
         line-height: 10px;
     }
-    #main-carousel{
+
+    #main-carousel {
         margin: 0px 30px;
     }
-    .causes-one__carousel.owl-theme .owl-nav{
+
+    .causes-one__carousel.owl-theme .owl-nav {
         display: block;
         top: -60px;
         right: 0px;
     }
+
     .causes-one__carousel.owl-theme .owl-nav .owl-prev,
     .causes-one__carousel.owl-theme .owl-nav .owl-next {
         height: 25px;
@@ -1859,8 +1866,9 @@
         font-size: 13px;
         padding: 0px;
     }
+
     .causes-one__carousel.owl-theme .owl-nav .owl-prev span,
-    .causes-one__carousel.owl-theme .owl-nav .owl-next span{
+    .causes-one__carousel.owl-theme .owl-nav .owl-next span {
         margin: 0px;
         top: 0px;
         left: 0px;
@@ -1868,5 +1876,34 @@
         left: 50%;
         transform: translate(-50%, -50%);
         position: absolute;
+    }
+    .donations-container {
+        padding: 0px;
+    }
+    .donations-container .img-container{
+        width: 100px;
+    } 
+    .donations-container img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+    .donations-container .text-container .inner-text-container-1 {
+        font-size: 11px;
+    }
+    .donations-container .text-container .inner-text-container-2 p {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .thm-btn {
+        font-size: 6px;
+        font-weight: 600;
+        padding: 0px 5px;
+        margin: 10px;
+        border-radius: 35px;
+        letter-spacing: 0em;
+    }
+    #main-carousel{
+        margin: 0px;
     }
 }
