@@ -1833,7 +1833,6 @@
     .causes-one__goals {
         display: flex;
         justify-content: space-between;
-        backgroundcolor: red;
     }
     .causes-one__goals>p {
         font-size: 10px;
@@ -1843,5 +1842,31 @@
         color: var(--pifoxen-black);
         font-weight: 500;
         line-height: 10px;
+    }
+    #main-carousel{
+        margin: 0px 30px;
+    }
+    .causes-one__carousel.owl-theme .owl-nav{
+        display: block;
+        top: -60px;
+        right: 0px;
+    }
+    .causes-one__carousel.owl-theme .owl-nav .owl-prev,
+    .causes-one__carousel.owl-theme .owl-nav .owl-next {
+        height: 25px;
+        width: 25px;
+        position: relative;
+        font-size: 13px;
+        padding: 0px;
+    }
+    .causes-one__carousel.owl-theme .owl-nav .owl-prev span,
+    .causes-one__carousel.owl-theme .owl-nav .owl-next span{
+        margin: 0px;
+        top: 0px;
+        left: 0px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
     }
 }

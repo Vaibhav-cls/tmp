@@ -339,7 +339,7 @@ ul {
 
 .section-title {
   margin-top: 10px;
-  margin-bottom: 48px;
+  margin-bottom: 20px;
 }
 
 .section-title__tagline {
@@ -371,7 +371,6 @@ ul {
   font-size: 50px;
   line-height: 60px;
 }
-
 .bootstrap-select .btn-light:not(:disabled):not(.disabled).active,
 .bootstrap-select .btn-light:not(:disabled):not(.disabled):active,
 .bootstrap-select .show>.btn-light.dropdown-toggle {
@@ -3237,6 +3236,10 @@ ul {
   visibility: visible;
 }
 
+/*Home page popular cases slider*/
+#main-carousel{
+  margin: 0px 80px;
+}
 .causes-one__single {
   position: relative;
   display: block;
@@ -9834,7 +9837,6 @@ RESPONSIVENESS TO MOBILE VIEWPORT AND MANUAL BUTTONS */
 }
 .event-container .event-container-inner h2{
   font-size: 20px;
-  margin-op: 5px;
 }
 .event-container .event-container-inner p{
   font-size: 12px;
