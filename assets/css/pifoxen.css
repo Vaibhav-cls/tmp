@@ -3239,6 +3239,9 @@ ul {
 /*Home page popular cases slider*/
 #main-carousel{
   margin: 0px 80px;
+  box-shadow: -1px 2px 261px -156px rgba(0,0,0,0.24) inset;
+  -webkit-box-shadow: -1px 2px 261px -156px rgba(0,0,0,0.24) inset;
+  -moz-box-shadow: -1px 2px 261px -156px rgba(0,0,0,0.24) inset;
 }
 .causes-one__single {
   position: relative;
